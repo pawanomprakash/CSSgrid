@@ -1,0 +1,17 @@
+img{
+    height: 100%;
+    width: 100%;
+    border: yellow 5px solid;
+  }
+  
+  .gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);  
+    grid-template-rows:repeat(3,1fr);
+    grid-gap: 20px;
+   
+  }
+  
+  body{
+    background: black;
+  }
